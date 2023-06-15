@@ -9,6 +9,8 @@ function User({ user, onRemove }) {
   );
 }
 
+//jsx 외부에서 정의되어진 event hander나 callback로 parameter를 pass할 때 arrow function을 씁니다.
+
 function UserList({ users, onRemove }) {
   return (
     <div>
